@@ -3,7 +3,9 @@
 // adding CSS and JS files
 
 function gt_setup(){
-    wp_enqueue_style('google-fonts','//fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab', false);
+    // wp_enqueue_style('google-fonts','//fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab', false);
+    // wp_enqueue_style('google-fonts','//fonts.googleapis.com/css2?family=Montserrat&display=swap', false);
+    wp_enqueue_style('google-fonts','//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap', array(), null );
     wp_enqueue_script('font-awesome', '//kit.fontawesome.com/cac989eb6d.js');
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), NULL, '1.0.0', true);
